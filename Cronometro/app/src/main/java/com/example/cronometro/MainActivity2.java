@@ -26,8 +26,17 @@ public class MainActivity2 extends Activity {
     private final List<String> ingles = Arrays.asList(
             "Did the United States steal territory from Mexico?",
             "The United States is not a first-world country?",
-            "Bruno Mars was born in the United States?"
-    );
+            "Bruno Mars was born in the United States?",
+            "Does Messi play for PSG?",
+            "Does Mexico have beaches?",
+            "Does the ham come out of the milk?",
+            "Is the president of Mexico AMLO?",
+            "Can smartphones walk?",
+            "Do we need a stomach to digest food?",
+            "Is water not necessary to live?",
+            "Are the hamburgers made from crickets?",
+            "Mexico is world champion in soccer"
+            );
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +56,15 @@ public class MainActivity2 extends Activity {
         resp.add(1);
         resp.add(0);
         resp.add(1);
+        resp.add(1);
+        resp.add(1);
+        resp.add(0);
+        resp.add(1);
+        resp.add(0);
+        resp.add(1);
+        resp.add(1);
+        resp.add(0);
+        resp.add(0);
 
         btnFalse = binding.btnfalse;
         btnTrue = binding.btntrue;
